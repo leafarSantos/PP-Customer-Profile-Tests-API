@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: br.com.ppcustomer.address.tests.CustomerAddressTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 14.181 sec <<< FAILURE! - in br.com.ppcustomer.address.tests.CustomerAddressTest
+shouldReturnError400WhenDistrictNotInformed()  Time elapsed: 1.185 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenDistrictNotInformed(CustomerAddressTest.java:228)
+
+shouldReturnError400WhenStateNotInformed()  Time elapsed: 0.629 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenStateNotInformed(CustomerAddressTest.java:168)
+
+shouldReturn200WhenTokenExistAndValidateFields()  Time elapsed: 4.561 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path state[270] doesn't match.
+Expected: is "Santa Cataria"
+  Actual: null
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturn200WhenTokenExistAndValidateFields(CustomerAddressTest.java:340)
+
+shouldReturnError400WhenCityNotInformed()  Time elapsed: 0.241 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenCityNotInformed(CustomerAddressTest.java:198)
+
+shouldReturnError400WhenVoidBodyWithKeys()  Time elapsed: 0.737 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenVoidBodyWithKeys(CustomerAddressTest.java:107)
+
+ShouldReturnError400WhenTryingToCreateASecondHOMETypeAddress()  Time elapsed: 0.766 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.ShouldReturnError400WhenTryingToCreateASecondHOMETypeAddress(CustomerAddressTest.java:382)
+
+shouldReturnError400WhenStreetNotInformed()  Time elapsed: 0.733 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenStreetNotInformed(CustomerAddressTest.java:257)
+
+shouldReturnError400WhenPostalCodeNotInformed()  Time elapsed: 3.346 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenPostalCodeNotInformed(CustomerAddressTest.java:288)
+
+shouldReturnError400WhenCountryNotInformed()  Time elapsed: 0.736 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at br.com.ppcustomer.address.tests.CustomerAddressTest.shouldReturnError400WhenCountryNotInformed(CustomerAddressTest.java:137)
+

@@ -1,0 +1,9 @@
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/entities/Customer.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/utils/GenerateToken.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/terms/TermsOfUseTest.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/address/tests/CustomerAddressTest.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/tests/CustomerTest.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/core/BaseTest.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/core/Constantes.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/entities/CustomerAddress.java
+/home/tribo-qa/eclipse-workspace/ppcustomer-tests/src/test/java/br/com/ppcustomer/utils/PlayloadUtils.java

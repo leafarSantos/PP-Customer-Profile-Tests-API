@@ -1,0 +1,9 @@
+br/com/ppcustomer/utils/GenerateToken.class
+br/com/ppcustomer/utils/PlayloadUtils.class
+br/com/ppcustomer/tests/CustomerTest.class
+br/com/ppcustomer/entities/CustomerAddress.class
+br/com/ppcustomer/terms/TermsOfUseTest.class
+br/com/ppcustomer/core/Constantes.class
+br/com/ppcustomer/address/tests/CustomerAddressTest.class
+br/com/ppcustomer/entities/Customer.class
+br/com/ppcustomer/core/BaseTest.class
